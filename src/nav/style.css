@@ -1,0 +1,83 @@
+.bbb {
+    background-color: #00000000;
+    color: #00000000;
+    outline: none;
+    border: none;
+}
+
+@media all and (max-width: 767px) {
+    .navbar-bbb {
+        margin-left: -100px;
+        margin-right: 50px;
+    }
+}
+
+@media all and (max-width: 575px) {
+    .navbar-bbb {
+        margin-left: -100px;
+        margin-right: 80px;
+    }
+}
+
+@media all and (max-width: 559px) {
+    .navbar-bbb {
+        margin-left: -100px;
+        margin-right: 50px;
+    }
+}
+
+@media all and (max-width: 362px) {
+    .navbar-bbb {
+        margin-left: -120px;
+        margin-right: 50px;
+    }
+    .bbb {
+        width: 100px;
+    }
+}
+
+.text-style {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    margin-left: 100px;
+    color: #000000;
+
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    padding-bottom: 4px;
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+.text-style:hover {
+    background-size: 100% 2px;
+}
+
+.tel-style {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: #000000;
+
+}
+.tel-style:hover {
+    color:#000000;
+}
+
+.nav-style {
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 50% 75%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+.nav-style:hover {
+    color:#000000;
+    background-size: 100% 2px;
+}

@@ -1,0 +1,79 @@
+.text-header {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 49px;
+    
+    color: #000000;
+
+    position: absolute;
+    max-width: 530px;
+    max-height: 140px;
+
+    margin-top: 80px;
+}   
+
+.text-header-mag {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #000000;
+
+    position: absolute;
+    max-width: 420px;
+    max-height: 40px;
+
+    margin-top: 270px;
+}
+
+.header-fon {
+    margin-top: 60px;
+    float: right;
+}
+
+.btn {
+    background: linear-gradient(96.57deg, #12E44D 26.91%, rgb(18, 228, 77) 69.59%);
+    box-shadow: 0px 10px 35px rgb(25, 228, 83);
+    border-radius: 100px;
+
+    position: absolute;
+    width: 300px;
+    height: 60px;
+    margin-top: 350px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+}
+
+@media all and (max-width: 437px)  {
+    .text-header-mag {
+        margin-top: 310px;
+    }
+    .btn {
+        margin-top: 390px;
+    }
+
+}
+
+@media all and (max-width: 377px)  {
+    .text-header-mag {
+        margin-top: 360px;
+    }
+    .btn {
+        margin-top: 440px;
+    }
+    .header-fon {
+  
+        width: 100%;
+    }
+    
+}
